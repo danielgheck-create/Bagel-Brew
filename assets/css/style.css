@@ -1,16 +1,23 @@
-/* a {
+/* nav bar styles */
+
+a {
   font-family: Anton;
-  color: #FFF;
+  color: #fff;
 }
 
 .navbar-nav .nav-item a {
-  color:#FFF;
+  color: #fff;
 }
 
-.navbar-alpha {
-  background-color:  rgba(0, 0, 0, 0.4);
+.navbar-dark {
+  background-color: rgba(0, 0, 0, 0.2);
 }
-*/
+
+/* .navbar-alpha {
+  background-color: rgba(0, 0, 0, 0.4);
+} */
+
+/* Top hero banner */
 
 .hero {
   background: url("../images/Counter-Orig-Photo.jpg") no-repeat center
