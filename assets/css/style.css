@@ -55,3 +55,23 @@ a {
   height: 100%;
   background: rgba(0, 0, 0, 0.5);
 }
+
+/* Icons Bar */
+
+#time {
+  font-family: Anton;
+  color: #333;
+  font-size: 2.5rem;
+}
+
+#icons-bar {
+  background-color: #e9e7df;
+}
+
+#icons-bar div img {
+  width: 150px;
+}
+
+#icons-bar .container {
+  max-width: 900px;
+}
