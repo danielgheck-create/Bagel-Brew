@@ -1,3 +1,19 @@
+/* general styles */
+html,
+body {
+  font-size: 16px;
+  line-height: 1.5;
+  box-sizing: border-box;
+  margin: 0;
+  overflow-x: hidden;
+  top: 0;
+  left: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
 /* nav bar styles */
 
 a,
@@ -60,7 +76,7 @@ a,
 
 /* Icons Bar */
 
-#time {
+#title {
   font-family: Anton;
   color: #333;
   font-size: 2.5rem;
@@ -81,4 +97,41 @@ a,
 #icons-bar .container .icon-box span {
   font-family: "Roboto Slab";
   font-size: 1.5rem;
+}
+
+/* Tear paper
+
+*/
+.tear-down {
+  width: 100vw;
+}
+
+/* MENU STYLES */
+
+.table-espresso {
+  width: 25rem;
+  border: solid 2px #000;
+}
+
+.table-espresso tr {
+  width: 100%;
+}
+
+.table-espresso tr td {
+  font-family: "Roboto Slab", arial;
+  font-weight: 400;
+  font-size: 1.25rem;
+  vertical-align: middle;
+}
+
+.table-espresso tr td:nth-child(3),
+.table-espresso tr td:nth-child(6) {
+  font-family: "Roboto Slab", arial;
+  font-size: 1.25rem;
+  font-weight: 300;
+}
+
+.table-espresso tr td img {
+  width: 5rem;
+  height: 5rem;
 }
