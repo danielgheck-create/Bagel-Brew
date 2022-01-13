@@ -23,33 +23,7 @@
         background-color:  rgba(0, 0, 0, 0.4);
       }
 
-      .table-espresso {
-        width: 25rem;
-        border: solid 2px #000;
-      }
-
-      .table-espresso tr {
-        width: 100%;
-      }
-
-      .table-espresso tr td {
-        font-family: "Roboto Slab", arial;
-        font-weight: 400;
-        font-size: 1.25rem;
-        vertical-align: middle;
-      }
-
-     .table-espresso tr td:nth-child(3),
-     .table-espresso tr td:nth-child(6)  {
-        font-family: "Roboto Slab", arial;
-        font-size: 1.25rem;
-        font-weight: 300;
-      }
-
-      .table-espresso tr td img {
-        width:5rem;
-        height:5rem;
-      }
+      
       /* Signature Sandwiches */
 
       .table-signature-sandwiches {
@@ -104,13 +78,13 @@
       }
 
       hr {
-        
+        height: 5px;
       }
  
     </style>
     <title>Bagel and Brew</title>
   </head>
-  <div class="container-lg justify-content-center">
+  <div class="container-lg justify-content-evenly">
     <div class="row">
       <div class="col-md-6">
           <table class="table-signature-sandwiches">
@@ -188,7 +162,7 @@
             </tbody>
           </table>
       </div>
-      <div class="col-md-6"> <!-- right-->
+      <div class="col-md-6 justify-content-evenly"> <!-- right-->
         <table class="table-create-own">
           <tbody>
             <!-- Begin Row -->
@@ -196,7 +170,7 @@
 
             <tr>
               <td>
-                <table class="inner-menu-table" style="">
+                <table class="inner-menu-table" >
                   <tr>
                     <td style="border-right: #333 1px solid; width: 170px;" class="text-center create-title" valign="top"> <!-- Move to top style -->
                       BREADS<br>
@@ -208,7 +182,7 @@
                         </tr>
                         <tr>
                           <td>
-                            Whole Weat
+                            Whole Wheat
                           </td>
                         </tr>
                         <tr>
@@ -278,38 +252,30 @@
                   <tr>
                     <td style="border-right: #333 1px solid; width: 170px;" class="text-center create-title" valign="top">
                       MEATS<br>
-                      <table class="create-item mx-auto" >
-                        <tr>
-                          <td >
-                            Ham
-                          </td>
-                        </tr>
-                        <tr>
-                          <td>
-                            Turkey
-                          </td>
-                        </tr>
-                        <tr>
-                          <td>
-                            Nova
-                          </td>
-                        </tr>
-                        <tr>
-                          <td>
-                            Pastrami
-                          </td>
-                        </tr>
-                        <tr>
-                          <td>
-                            Roast Beef
-                          </td>
-                        </tr>
-                        <tr>
-                          <td>
-                            Veggie/Cheese
-                          </td>
-                        </tr>
-                      </table>
+                      <div class="row create-item justify-content-between">
+                        <div class="col justify-content-start">Ham</div>
+                        <div class="col justify-content-end">$9.50</div>
+                      </div>
+                      <div class="row create-item justify-content-between">
+                        <div class="col ">Turkey</div>
+                        <div class="col ">$9.50</div>
+                      </div>
+                      <div class="row create-item justify-content-between">
+                        <div class="col ">Nova</div>
+                        <div class="col ">$11.50</div>
+                      </div>
+                      <div class="row create-item justify-content-between">
+                        <div class="col ">Pastrami</div>
+                        <div class="col ">$11</div>
+                      </div>
+                      <div class="row create-item justify-content-between">
+                        <div class="col ">Roast Beef</div>
+                        <div class="col ">$11</div>
+                      </div>
+                      <div class="row create-item justify-content-between">
+                        <div class="col ">Veggie/Cheese</div>
+                        <div class="col ">$5</div>
+                      </div>
                     </td>
                     <td class="text-center create-title" style="width: 170px;" valign="top">
                       TOPPINGS<br>
@@ -349,7 +315,51 @@
                             Add Bacon +$1.50
                           </td>
                         </tr>
+                      </table> 
+                    </td>
+                  </tr>
+                </table>
+              </td>
+            </tr>
+                <!-- End Meat Toppings table-->
+                        <tr>
+                          <td><hr></td>
+                        </tr>
+                <!-- Condiments table-->
+            <tr>
+              <td>
+                <table class="inner-menu-table" >
+                  <tr>
+                    <td style="border-right: #333 1px solid; width: 170px;" class="text-center create-title" valign="top"> <!-- Move to top style -->
+                      CONDIMENTS<br>
+                      <table class="create-item mx-auto" >
+                        <tr>
+                          <td >
+                            Deli Mustard
+                          </td>
+                        </tr>
+                        <tr>
+                          <td>
+                            Hot Sauce
+                          </td>
+                        </tr>
+                        <tr>
+                          <td>
+                            Ketchup
+                          </td>
+                        </tr>
+                        <tr>
+                          <td>
+                            Mayo
+                          </td>
+                        </tr>
                       </table>
+                    </td>
+                    <td class="text-center create-title" style="width: 170px;" valign="top">
+                      ADD CHIPS  <br>
+                      & A PICKLE<br>
+                      <span class="create-item mx-auto">for $1.50</span>
+                    
                     </td>
                   </tr>
                 </table>

@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Roboto+Slab&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Roboto+Slab:wght@300;500&display=swap" rel="stylesheet">
+    <style >
+      a {
+        font-family: Anton;
+        color: #FFF;
+      }
+
+      .navbar-nav .nav-item a {
+        color:#FFF;
+      }
+  
+      .navbar-alpha {
+        background-color:  rgba(0, 0, 0, 0.4);
+      }
+
+      
+      /* Signature Sandwiches */
+
+      .table-signature-sandwiches {
+        color:#5E5E5E;
+        font-family: "Roboto Slab", arial;
+        font-size: 1.25rem;
+        font-weight: 300;
+        width:400px;
+      }
+
+      .sandwich-name {
+        font-weight: 500;
+      }
+
+      .sandwich-description {
+        font-size: 0.85rem;
+      }
+
+      .title {
+        font-family: Anton;
+        color: #333;
+        font-size: 1.8rem;
+      }
+
+      /* Create Your Own */
+
+      .table-create-own {
+        color:#5E5E5E;
+        font-family: "Roboto Slab", arial;
+        font-size: 1.25rem;
+        font-weight: 300;
+        width:400px;
+      }
+
+      .inner-menu-table {
+        width:400px;
+        /* border: 1px solid #000; */
+      }
+
+      .inner-menu-table tr td {
+        width:170px;
+        /* border: 1px solid #000; */
+      }
+
+      .create-item {
+        font-size: 0.9rem;
+        font-weight: 100;
+      }
+
+      .create-title {
+        font-weight: 500;
+      }
+
+      /* hr {
+        height: 5px;
+      } */
+ 
+    </style>
+    <title>Bagel and Brew</title>
+  </head>
+  <div class="container-lg justify-content-evenly">
+    <div class="row">
+      <div class="col-md-6">
+          <table class="table-signature-sandwiches">
+            <tbody>
+              <!-- Begin Row -->
+              <tr><td colspan="2"><p class="p-4 text-center title">Signature Sandwiches</p></td></tr>
+              <tr>
+                <td ><span class="sandwich-name">SUPER NOVA</span>&nbsp;&nbsp;&nbsp;<span class="sandwich-price">$11.50</span></td> 
+              </tr>
+              <tr>
+                <td colspan="2" class="sandwich-description">Nova Scotia smoked salmon on a bagel with choice of lettuce, tomato, oinon, and capers with plain or flavored cream cheese.</td>
+              </tr>
+              <tr>
+                <td colspan="2" >&nbsp;</td>
+              </tr>
+              <!-- End Row, Start New -->
+              <tr>
+                <td ><span class="sandwich-name">LUMBER JACK</span>&nbsp;&nbsp;&nbsp;<span class="sandwich-price">$6.75</span></td> 
+              </tr>
+              <tr>
+                <td colspan="2" class="sandwich-description">Fresh cooked egg, sausage and cheddar cheese on a bagel with maple bacon cream cheese.</td>
+              </tr>
+              <tr>
+                <td colspan="2" >&nbsp;</td>
+              </tr>
+              <!-- End Row, Start New -->
+              <tr>
+                <td ><span class="sandwich-name">BREAKFAST BLT</span>&nbsp;&nbsp;&nbsp;<span class="sandwich-price">$6.75</span></td> 
+              </tr>
+              <tr>
+                <td colspan="2" class="sandwich-description">A fresh cooked egg and cheese sandwich with bacon, lettuce abnd tomato with a little mayo.</td>
+              </tr>
+              <td colspan="2" >&nbsp;</td>
+              <!-- End Row, Start New -->
+              <tr>
+                <td ><span class="sandwich-name">BIG BAND</span>&nbsp;&nbsp;&nbsp;<span class="sandwich-price">$8.50</span></td> 
+              </tr>
+              <tr>
+                <td colspan="2" class="sandwich-description">Fresh cooked egg and melted swiss with nova scotia smoked salmon and scallion cream cheese.</td>
+              </tr>
+              <td colspan="2" >&nbsp;</td>
+              <!-- End Row, Start New -->
+              <tr>
+                <td ><span class="sandwich-name">SOUTHWEST</span>&nbsp;&nbsp;&nbsp;<span class="sandwich-price">$6.75</span></td> 
+              </tr>
+              <tr>
+                <td colspan="2" class="sandwich-description">Egg and pepper jack cheese with seared ham on a bagel with buffalo garlic parm cream cheese..</td>
+              </tr>
+              <td colspan="2" >&nbsp;</td>
+              <!-- End Row, Start New -->
+              <tr>
+                <td ><span class="sandwich-name">STEAK AND EGGS</span>&nbsp;&nbsp;&nbsp;<span class="sandwich-price">$8</span></td> 
+              </tr>
+              <tr>
+                <td colspan="2" class="sandwich-description">A fresh cooked egg, topped with grilled roast beef, grilled onions and american cheese.</td>
+              </tr>
+              <td colspan="2" >&nbsp;</td>
+              <!-- End Row, Start New -->
+              <tr>
+                <td ><span class="sandwich-name">THE STRAM</span>&nbsp;&nbsp;&nbsp;<span class="sandwich-price">$6.75</span></td> 
+              </tr>
+              <tr>
+                <td colspan="2" class="sandwich-description">A fresh cooked egg piled with grilled patrami and melted cheedar ib a toaste bagel with scallion cream cheese.</td>
+              </tr>
+              <td colspan="2" >&nbsp;</td>
+              <!-- End Row, Start New -->
+              <tr>
+                <td ><span class="sandwich-name">LEAN & MEAN</span>&nbsp;&nbsp;&nbsp;<span class="sandwich-price">$7</span></td> 
+              </tr>
+              <tr>
+                <td colspan="2" class="sandwich-description">Two fresh cooked eggs with seared turkey breast and melted cheddar cheese.</td>
+              </tr>
+              <td colspan="2" >&nbsp;</td>
+              <!-- End Row, Start New -->
+              <tr>
+                <td ><span class="sandwich-name">THIS LIL' PIGGY</span>&nbsp;&nbsp;&nbsp;<span class="sandwich-price">$8</span></td> 
+              </tr>
+              <tr>
+                <td colspan="2" class="sandwich-description">Egg sandwich topped with bacon, ham and sausage with bacon horseradish cream cheese.</td>
+              </tr>
+              <td colspan="2" >&nbsp;</td>
+              <!-- End Row, Start New -->
+            </tbody>
+          </table>
+      </div>
+      <div class="col-md-6 justify-content-evenly"> <!-- right-->
+        <table class="table-create-own">
+          <tbody>
+            <!-- Begin Row -->
+            <tr><td colspan="2"><p class="p-4 text-center title">Breakfast Sandwiches</p></td></tr>
+            <!-- End Row, Start New -->
+            <tr>
+              <td ><span class="sandwich-name">DAILY DOUBLE</span>&nbsp;&nbsp;&nbsp;<span class="sandwich-price">$5.50</span></td> 
+            </tr>
+            <tr>
+              <td colspan="2" class="sandwich-description">Two fresh cooked eggs with your choice of cheese. Add meat +1.50</td>
+            </tr>
+            <tr>
+              <td colspan="2" >&nbsp;</td>
+            </tr>
+            <!-- End Row, Start New -->
+            <tr>
+              <td ><span class="sandwich-name">SINGLETON</span>&nbsp;&nbsp;&nbsp;<span class="sandwich-price">$4.50</span></td> 
+            </tr>
+            <tr>
+              <td colspan="2" class="sandwich-description">One fresh cooked egg with your choice of cheese. Add meat +1.50</td>
+            </tr>
+            <tr>
+              <td colspan="2" >&nbsp;</td>
+            </tr>
+            <!-- End Row, Start New -->
+            <tr>
+              <td>
+                <table class="inner-menu-table" >
+                  <tr>
+                    <td style="border-right: #333 1px solid; width: 170px;" class="text-center create-title" valign="top"> <!-- Move to top style -->
+                      MEATS<br>
+                      <table class="create-item mx-auto" >
+                        <tr>
+                          <td >
+                            Bacon
+                          </td>
+                        </tr>
+                        <tr>
+                          <td>
+                            Sausage
+                          </td>
+                        </tr>
+                        <tr>
+                          <td>
+                            Pastrami
+                          </td>
+                        </tr>
+                        <tr>
+                          <td>
+                            Ham
+                          </td>
+                        </tr>
+                        <tr>
+                          <td>
+                            Turkey
+                          </td>
+                        </tr>
+                        <tr>
+                          <td>
+                            Roast Beef
+                          </td>
+                        </tr>
+                        <tr>
+                          <td>
+                            Double Meat +$1.50
+                          </td>
+                        </tr>
+                      </table>
+                    </td>
+                    <td class="text-center create-title" style="width: 170px;" valign="top">
+                      CHEESES<br>
+                      <table class="create-item mx-auto" >
+                        <tr>
+                          <td >
+                            American
+                          </td>
+                        </tr>
+                        <tr>
+                          <td>
+                            Cheddar
+                          </td>
+                        </tr>
+                        <tr>
+                          <td>
+                            Swiss
+                          </td>
+                        </tr>
+                        <tr>
+                          <td>
+                            Pepper Jack
+                          </td>
+                        </tr>
+                        <tr>
+                          <td>
+                            Cream Cheese<br>
+                            <span style="font-size: 0.7rem;">(see flavors below)</span>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td>
+                            Double Cheese +$1.50
+                          </td>
+                        </tr>
+                      </table>
+                    </td>
+                  </tr>
+                </table>
+              </td>
+            </tr>
+            <!-- End Meat and Cheese table-->
+
+            <!-- Begin Bagel table-->
+            <tr><td colspan="2"><p class="text-center title pt-5">Bagel with Cream Cheese</p><p class="text-center" style="font-size: 1rem; margin-top: -0.5rem;" >$3.50 | Extra Cream Cheese +$0.50</p></td>
+            </tr>
+            <tr><td colspan="2"><p class="text-center title pt-1">Bagels</p><p class="text-center" style="font-size: 1rem; margin-top: -0.5rem;" >DOZEN - $11 | HALF DOZEN - $5.50  |  Each - $1</p></td>
+            </tr>
+            <tr>
+              <td>
+                <table class="inner-menu-table" >
+                  <tr>
+                    <td style="border-right: #333 1px solid; width: 115px;" class="text-center create-title" valign="top"> <!-- Move to top style -->
+                      <table class="create-item mx-auto" >
+                        <tr>
+                          <td >
+                            Plain
+                          </td>
+                        </tr>
+                        <tr>
+                          <td>
+                            Everything
+                          </td>
+                        </tr>
+                        <tr>
+                          <td>
+                            Sesame
+                          </td>
+                        </tr>
+                      </table>
+                    </td>
+                    <td style="border-right: #333 1px solid; width: 115px;" class="text-center create-title" valign="top"> <!-- Move to top style -->
+                      <table class="create-item mx-auto" >
+                        <tr>
+                          <td >
+                            Poppy
+                          </td>
+                        </tr>
+                        <tr>
+                          <td>
+                            Cinnamon Raison
+                          </td>
+                        </tr>
+                        <tr>
+                          <td>
+                            Onion
+                          </td>
+                        </tr>
+                      </table>
+                    </td>
+                    <td style="width: 115px;" class="text-center create-title" valign="top"> <!-- Move to top style -->
+                      <table class="create-item mx-auto" >
+                        <tr>
+                          <td >
+                            Cajun
+                          </td>
+                        </tr>
+                        <tr>
+                          <td>
+                            Salt
+                          </td>
+                        </tr>
+                        <tr>
+                          <td>
+                            Multigrain
+                          </td>
+                        </tr>
+                      </table>
+                    </td>
+                  </tr>
+                </table>
+              </td>
+            </tr>
+            <!-- Cream Cheese Flavors -->
+            <tr><td colspan="2"><p class="text-center title pt-4">Cream Cheese Flavors</p><p class="text-center" style="font-size: 1rem; margin-top: -0.5rem;" >TUBS: 2oz. - $2 | 4oz. - $3.50 | 8oz. - $6</p></td>
+            </tr>
+            <tr>
+              <td>
+                <table class="inner-menu-table" >
+                  <tr>
+                    <td style="border-right: #333 1px solid; width: 115px;" class="text-center create-title" valign="top"> <!-- Move to top style -->
+                      <table class="create-item mx-auto" >
+                        <tr>
+                          <td >
+                            Plain
+                          </td>
+                        </tr>
+                        <tr>
+                          <td>
+                            Everything
+                          </td>
+                        </tr>
+                        <tr>
+                          <td>
+                            Sesame
+                          </td>
+                        </tr>
+                      </table>
+                    </td>
+                    <td style="border-right: #333 1px solid; width: 115px;" class="text-center create-title" valign="top"> <!-- Move to top style -->
+                      <table class="create-item mx-auto" >
+                        <tr>
+                          <td >
+                            Poppy
+                          </td>
+                        </tr>
+                        <tr>
+                          <td>
+                            Cinnamon Raison
+                          </td>
+                        </tr>
+                        <tr>
+                          <td>
+                            Onion
+                          </td>
+                        </tr>
+                      </table>
+                    </td>
+                    <td style="width: 115px;" class="text-center create-title" valign="top"> <!-- Move to top style -->
+                      <table class="create-item mx-auto" >
+                        <tr>
+                          <td >
+                            Cajun
+                          </td>
+                        </tr>
+                        <tr>
+                          <td>
+                            Salt
+                          </td>
+                        </tr>
+                        <tr>
+                          <td>
+                            Multigrain
+                          </td>
+                        </tr>
+                      </table>
+                    </td>
+                  </tr>
+                </table>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+              
+    <!-- ////////////////////  -->
+    </div>
+  </div>
+</body>
+</html>
