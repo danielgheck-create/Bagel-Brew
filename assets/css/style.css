@@ -27,12 +27,12 @@ a,
   color: #fff;
 }
 
-.navbar-dark {
-  background-color: rgba(0, 0, 0, 0.2);
-}
-
 .navbar-nav > li > .dropdown-menu {
   background-color: #333;
+}
+
+.navbar-transparent {
+  background: rgba(0, 0, 0, 0.6);
 }
 
 /* .navbar-alpha {
@@ -106,11 +106,12 @@ a,
   width: 100vw;
 }
 
-/* MENU STYLES */
+/* Espresso MENU STYLES */
 
 .table-espresso {
   width: 25rem;
-  border: solid 2px #000;
+  color: #5e5e5e;
+  /* border: solid 2px #000; */
 }
 
 .table-espresso tr {
@@ -136,4 +137,77 @@ a,
   height: 5rem;
 }
 
-/* SANDWICH STYLES  */
+/* Coffee Menu Styles  */
+
+.coffee-title {
+  font-size: 1.5rem !important;
+}
+
+/* BREAKFAST SECTION STYLES */
+
+.breakfast-bg-color {
+  background-color: #e9e7de !important;
+}
+
+/* Signature Sandwiches */
+
+.table-signature-sandwiches {
+  color: #5e5e5e;
+  font-family: "Roboto Slab", arial;
+  font-size: 1.25rem;
+  font-weight: 300;
+  width: 450px;
+}
+
+.sandwich-name {
+  font-weight: 500;
+}
+
+.sandwich-description {
+  font-size: 0.85rem;
+}
+
+.title {
+  font-family: Anton;
+  color: #333;
+  font-size: 1.8rem;
+}
+
+/* DELI SANDWICHES */
+
+.deli-sandwich-bg-color {
+  background-color: #fff;
+}
+
+/* Create Your Own */
+
+.table-create-own {
+  color: #5e5e5e;
+  font-family: "Roboto Slab", arial;
+  font-size: 1.25rem;
+  font-weight: 300;
+  width: 400px;
+}
+
+.inner-menu-table {
+  width: 400px;
+  /* border: 1px solid #000; */
+}
+
+.inner-menu-table tr td {
+  width: 170px;
+  /* border: 1px solid #000; */
+}
+
+.create-item {
+  font-size: 0.9rem;
+  font-weight: 100;
+}
+
+.create-title {
+  font-weight: 500;
+}
+
+hr {
+  height: 5px;
+}

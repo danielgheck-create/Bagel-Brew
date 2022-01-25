@@ -10,6 +10,11 @@
     <link href="https://fonts.googleapis.com/css2?family=Anton&family=Roboto+Slab&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Anton&family=Roboto+Slab:wght@300;500&display=swap" rel="stylesheet">
     <style >
+
+      .menu-banner-image {
+        width:50rem
+      }
+
       a {
         font-family: Anton;
         color: #FFF;
@@ -31,7 +36,7 @@
         font-family: "Roboto Slab", arial;
         font-size: 1.25rem;
         font-weight: 300;
-        width:400px;
+        width:450px;
       }
 
       .sandwich-name {
@@ -77,17 +82,20 @@
         font-weight: 500;
       }
 
-      /* hr {
-        height: 5px;
-      } */
+      .other-spreads {
+        font-weight: 500;
+      }
  
     </style>
     <title>Bagel and Brew</title>
   </head>
-  <div class="container-lg justify-content-evenly">
+  <div class="container-lg " style="border: 2px solid #000"> <!--  justify-content-evenly -->
+    <div class="row d-flex justify-content-center" >
+      <img class="menu-banner-image" src="/assets/images/Breakfast-Banner.png" alt="">
+    </div>
     <div class="row">
-      <div class="col-md-6">
-          <table class="table-signature-sandwiches">
+      <div class="col-md-6 d-flex justify-content-center">
+          <table class="table-signature-sandwiches d-flex justify-content-center p-2" style="border: 2px solid #000">
             <tbody>
               <!-- Begin Row -->
               <tr><td colspan="2"><p class="p-4 text-center title">Signature Sandwiches</p></td></tr>
@@ -170,7 +178,7 @@
             </tbody>
           </table>
       </div>
-      <div class="col-md-6 justify-content-evenly"> <!-- right-->
+      <div class="col-md-6 table-signature-sandwiches d-flex justify-content-center p-2" style="border: 2px solid #000"> <!-- right-->
         <table class="table-create-own">
           <tbody>
             <!-- Begin Row -->
@@ -368,12 +376,7 @@
                         </tr>
                         <tr>
                           <td>
-                            Everything
-                          </td>
-                        </tr>
-                        <tr>
-                          <td>
-                            Sesame
+                            Scallion
                           </td>
                         </tr>
                       </table>
@@ -382,17 +385,12 @@
                       <table class="create-item mx-auto" >
                         <tr>
                           <td >
-                            Poppy
+                            Veggie
                           </td>
                         </tr>
                         <tr>
                           <td>
-                            Cinnamon Raison
-                          </td>
-                        </tr>
-                        <tr>
-                          <td>
-                            Onion
+                            Buffalo Garlic Parm
                           </td>
                         </tr>
                       </table>
@@ -401,17 +399,12 @@
                       <table class="create-item mx-auto" >
                         <tr>
                           <td >
-                            Cajun
+                            Maple Bacon
                           </td>
                         </tr>
                         <tr>
                           <td>
-                            Salt
-                          </td>
-                        </tr>
-                        <tr>
-                          <td>
-                            Multigrain
+                            Bacon Horseradish
                           </td>
                         </tr>
                       </table>
@@ -419,6 +412,9 @@
                   </tr>
                 </table>
               </td>
+            </tr>
+            <!-- Other Spreads-->
+            <tr><td colspan="2"><p class="text-center pt-4 fw-bold">OTHER SPREADS</p><p class="text-center" style="font-size: 1rem; margin-top: -0.5rem;" >Butter - $2 | Peanut Butter - $3.50 <br> Strawberry Jam - $3</p></td>
             </tr>
           </tbody>
         </table>
