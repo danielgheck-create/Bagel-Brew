@@ -23,7 +23,7 @@
                 <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
                   <ul class="navbar-nav ml-auto">
                     <li class="nav-item">
-                      <a class="nav-link active" aria-current="page" href="#">Home</a>
+                      <a class="nav-link active" style="color: #e9e7df;" aria-current="page" href="#">Home</a>
                     </li>
                     <li class="nav-item dropdown">
                       <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -36,8 +36,15 @@
                         <li><a class="dropdown-item" href="#deli-link">Deli Sandwiches</a></li>
                       </ul>
                     </li>
-                    <li class="nav-item">
-                      <a class="nav-link" href="#">About</a>
+                    <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                       About
+                      </a>
+                      <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <li><a class="dropdown-item" href="#about-us-link">About</a></li>
+                        <li><a class="dropdown-item" href="#visit-link">Visit</a></li>
+                        
+                      </ul>
                     </li>
                     <li class="nav-item">
                       <a class="nav-link" href="#">Contact</a>
@@ -51,25 +58,25 @@
       <img src="assets/images/BB_Logo_B.png" alt="">
     </div>
 </header>
-<section id="icons-bar" >
+<section id="icons-bar" class="py-4" >
   <p id="title" class="p-4 text-center">OPEN 7 AM - 1 PM</p>
   <div class="container d-flex justify-content-evenly">
     <div class="div row">
       <div class="icon-box text-center col-md">
-          <img id="eat" src="/assets/images/icons/Bagel-Icon-Stamped-B.png" alt=""><br>
-          <span>eat</span>
+        <a class="icon-text" href="#breakfast-link"><img id="eat" src="/assets/images/icons/Bagel-Icon-Stamped-B.png" alt="" href="#breakfast-link"></a><br>
+          <a class="icon-text" href="#breakfast-link">eat</a>
       </div>
       <div class="icon-box text-center col-md">
-          <img id="drink" src="/assets/images/icons/Coffee-Cup-Icon-stamped-B.png" alt=""><br>
-          <span class="icon-text">drink</span>
+        <a class="icon-text" href="#espresso-link"><img id="drink" src="/assets/images/icons/Coffee-Cup-Icon-stamped-B.png" alt=""></a><br>
+          <a class="icon-text" href="#espresso-link">drink</a>
       </div>
       <div class="icon-box text-center col-md">
-          <img id="visit" src="/assets/images/icons/Compas-Icon-stamped-B.png" alt=""><br>
-          <span class="icon-text">visit</span>
+        <a href="#visit-link" ><img id="visit" src="/assets/images/icons/Compas-Icon-stamped-B.png" alt=""></a><br>
+          <a href="#visit-link" class="icon-text">visit</a>
       </div>
       <div class="icon-box text-center col-md">
           <img id="gallery" src="/assets/images/icons/Eye-Icon-stamped-B.png" alt=""><br>
-          <span class="icon-text">gallery</span>
+          <a class="icon-text">gallery</a>
       </div>
     </div>
   </div>
@@ -210,6 +217,7 @@
 </div>
 </div>
 </section>
+
 <!-- /////////////////   BREAKFAST SECTION //////////-->
 <section class="container-lg my-5 breakfast-bg-color" id="breakfast-link"> <!--  justify-content-evenly -->
   <div class="row d-flex justify-content-center" >
@@ -838,7 +846,22 @@
   <!-- ////////////////////  -->
   </div>
 </section>
-  
+<section style="background-color: #e9e7df;">
+  <section class="container d-flex justify-content-center" id="about-us-link">
+    <p id="title" class="pt-5 text-center">About Us</p>
+  </section>
+    <section class="text-start p-5 ">
+      <span class="lead">
+        Bagel and Brew is a gourmet coffee and sandwich shop in Lenox Massachusetts. We serve breakfast, brunch, lunch and of course espresso drinks, fresh brewed coffee. Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, minus! Id architecto in nostrum fugiat ratione vero assumenda corrupti asperiores! Eius nihil inventore voluptas perspiciatis exercitationem, asperiores obcaecati doloremque a?
+      </span>
+    </section>
+<section class="container d-flex justify-content-center" id="visit-link">
+  <p id="title" class="pt-5 text-center">Visit Us</p>
+</section>
+  <section class="text-center">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2948.2035584437144!2d-73.28513238521074!3d42.35950094313076!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89e75b2ea38418e3%3A0x4c5b3b1241323300!2sBagel%20%26%20Brew!5e0!3m2!1sen!2sus!4v1643138492148!5m2!1sen!2sus" width="1000" height="650" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+  </section>
+</section>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 </body>
 </html>

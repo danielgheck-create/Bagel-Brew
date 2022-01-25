@@ -35,6 +35,10 @@ a,
   background: rgba(0, 0, 0, 0.6);
 }
 
+.active {
+  border-bottom: #e9e7df !important;
+}
+
 /* .navbar-alpha {
   background-color: rgba(0, 0, 0, 0.4);
 } */
@@ -97,6 +101,11 @@ a,
 #icons-bar .container .icon-box span {
   font-family: "Roboto Slab";
   font-size: 1.5rem;
+}
+
+.icon-text {
+  color: #333 !important;
+  text-align: end;
 }
 
 /* Tear paper
