@@ -35,9 +35,9 @@ a,
   background: rgba(0, 0, 0, 0.6);
 }
 
-.navbar-dark .navbar-toggler-icon { /* .navbar-light */
-  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
-}
+.navbar-dark .navbar-toggler-icon {
+  /* .navbar-light */
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255, 0.8)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
 }
 
 .active {
@@ -89,6 +89,12 @@ a,
   font-family: Anton;
   color: #333;
   font-size: 2.5rem;
+}
+
+.upper-phone-font {
+  font-family: Anton;
+  color: #333;
+  font-size: 2rem;
 }
 
 #icons-bar {
@@ -200,11 +206,11 @@ a,
   font-family: "Roboto Slab", arial;
   font-size: 1.25rem;
   font-weight: 300;
-  width: 400px;
+  width: 100%;
 }
 
 .inner-menu-table {
-  width: 400px;
+  width: 100%;
   /* border: 1px solid #000; */
 }
 
@@ -230,4 +236,23 @@ hr {
 
 .about-us-bg-color {
   background-color: #e9e7df;
+}
+
+.card-title {
+  font-family: Anton;
+  color: #333;
+  font-size: 2rem;
+  font-weight: 300;
+}
+
+.card-text-font {
+  font-family: "Roboto Slab" !important;
+  font-size: 1rem;
+}
+
+.card-width-outer {
+  width: 18rem;
+}
+.card-width-center {
+  width: 25rem;
 }
