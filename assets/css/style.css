@@ -262,3 +262,20 @@ hr {
 .card-width-center {
   width: 25rem;
 }
+
+/* ///// Gallery  ///// */
+
+.gallery .container-lg .row .col img {
+  max-width: 100%;
+}
+
+.gallery {
+  /* background-color: red; */
+  padding: 80px 0;
+}
+/* <section class="gallery min-vh-100">
+  <div class="container-lg">
+    <div class="row gy-4 row-col-1 row-col-sm-2 row-col-md-3">
+      <div class="col">
+        <img src="/assets/images/gallery/owners-staff.jpeg" alt="gallery" class="galery-item">
+      </div> */
