@@ -265,17 +265,20 @@ hr {
 
 /* ///// Gallery  ///// */
 
-.gallery .container-lg .row .col img {
+.gallery img {
   max-width: 100%;
+  background-color: #fff;
+  padding: 10px 10px;
+  width: 100%;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+  cursor: pointer;
 }
 
 .gallery {
   /* background-color: red; */
   padding: 80px 0;
 }
-/* <section class="gallery min-vh-100">
-  <div class="container-lg">
-    <div class="row gy-4 row-col-1 row-col-sm-2 row-col-md-3">
-      <div class="col">
-        <img src="/assets/images/gallery/owners-staff.jpeg" alt="gallery" class="galery-item">
-      </div> */
+
+#gallery-modal .modal-img {
+  width: 100%;
+}
