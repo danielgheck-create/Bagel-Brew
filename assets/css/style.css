@@ -92,10 +92,10 @@ a,
 
 /* Icons Bar */
 
-#title {
+.hours-title {
   font-family: Anton;
   color: #333;
-  font-size: 3.5rem;
+  font-size: 3rem;
 }
 
 .upper-phone-font {
@@ -174,6 +174,15 @@ a,
 
 .breakfast-bg-color {
   background-color: #e9e7de !important;
+}
+
+.breakfast-image {
+  background-image: url("/assets/images/Breakfast-Banner.png");
+  width: 100%;
+  height: 100px; /*You must set a specified height */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
 }
 
 /* Signature Sandwiches */
@@ -255,6 +264,7 @@ hr {
 .card-text-font {
   font-family: "Roboto Slab" !important;
   font-size: 1rem;
+  color: #333;
 }
 
 .card-width-outer {
@@ -282,4 +292,28 @@ hr {
 
 #gallery-modal .modal-img {
   width: 100%;
+}
+
+/* MEDIA QUERIES */
+
+@media only screen and (max-width: 768px) {
+  .hours-title {
+    font-family: Anton;
+    color: #333;
+    font-size: 2.5rem;
+  }
+
+  .breakfast-image {
+    background-image: url("/assets/images/Breakfast-Banner-sm.png");
+    width: 100%;
+    height: 60px;
+  }
+  .table-signature-sandwiches {
+    width: 380px;
+  }
+
+  p.footer-text {
+    font-size: 0.8rem;
+    text-align: start;
+  }
 }
