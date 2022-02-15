@@ -100,7 +100,7 @@ a,
 
 .upper-phone-font {
   font-family: Anton;
-  color: #333;
+  color: #333 !important;
   font-size: 2rem;
 }
 
@@ -178,6 +178,15 @@ a,
 
 .breakfast-image {
   background-image: url("/assets/images/Breakfast-Banner.png");
+  width: 100%;
+  height: 100px; /*You must set a specified height */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+}
+
+.deli-image {
+  background-image: url("/assets/images/Deli-Sandwiches-Backing.png");
   width: 100%;
   height: 100px; /*You must set a specified height */
   background-position: center; /* Center the image */
@@ -308,8 +317,24 @@ hr {
     width: 100%;
     height: 60px;
   }
+
+  .deli-image {
+    background-image: url("/assets/images/Deli-Sandwiches-Backing-sm.png");
+    width: 100%;
+    height: 60px;
+  }
+
   .table-signature-sandwiches {
     width: 380px;
+  }
+
+  .table-coffee {
+    width: 350px;
+    margin-left: 2rem;
+  }
+
+  .table-signature-sandwiches {
+    width: 350px;
   }
 
   p.footer-text {
