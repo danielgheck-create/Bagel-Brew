@@ -51,10 +51,6 @@ a,
   border-bottom: #e9e7df !important;
 }
 
-/* .navbar-alpha {
-  background-color: rgba(0, 0, 0, 0.4);
-} */
-
 /* Top hero banner */
 
 .hero {
@@ -92,7 +88,7 @@ a,
 
 /* Icons Bar */
 
-.hours-title {
+.large-title {
   font-family: Anton;
   color: #333;
   font-size: 3rem;
@@ -301,6 +297,10 @@ hr {
 
 #gallery-modal .modal-img {
   width: 100%;
+}
+
+.bi-arrow-up-circle:hover {
+  color: #e9e7df;
 }
 
 /* MEDIA QUERIES */
